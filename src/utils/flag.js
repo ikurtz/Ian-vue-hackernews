@@ -5,7 +5,7 @@ export const Flags = {
   score: new Rox.Flag(false),
   ask: new Rox.Flag(false),
   show: new Rox.Flag(false),
-  headerColor: new Rox.Variant('is-dark', ['is-dark', 'is-primary', 'is-white'])
+  headerColor: new Rox.RoxString('is-dark', ['is-dark', 'is-primary', 'is-white'])
 }
 
 export const configurationFetchedHandler = fetcherResults => {
@@ -17,11 +17,7 @@ export const configurationFetchedHandler = fetcherResults => {
 export const impressionHandler = (reporting, experiment) => {
   if (experiment) {
     console.log('flag ' + reporting.name + ' value is ' + reporting.value + ', it is part of ' + experiment.name + ' experiment')
-    analytics.page('Home', {
-      experiment: experiment.name,
-      flag: reporting.name,
-      value: reporting.value
-    })
+    
   } else {
     console.log('No experiment configured for flag ' + reporting.name + '. default value ' + reporting.value + ' was used')
   }
