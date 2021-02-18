@@ -1575,6 +1575,13 @@ axios@^0.19.0:
     follow-redirects "1.5.10"
     is-buffer "^2.0.2"
 
+axios@^0.19.2:
+  version "0.19.2"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
+  integrity sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==
+  dependencies:
+    follow-redirects "1.5.10"
+
 babel-code-frame@^6.22.0, babel-code-frame@^6.26.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-code-frame/-/babel-code-frame-6.26.0.tgz#63fd43f7dc1e3bb7ce35947db8fe369a3f58c74b"
@@ -8401,10 +8408,12 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
-rox-browser@^4.8.6:
-  version "4.8.6"
-  resolved "https://registry.yarnpkg.com/rox-browser/-/rox-browser-4.8.6.tgz#bf97a72018780340bfb760ab4c8db82f5e73ea9b"
-  integrity sha512-QZF+ZkEzUgG+CYwmJCcCY/flwgum9j6fM40HxIga9964C3BlzFDm35QsoJIYbWReNJvMJ0i2kUgoGu7WjNiN3A==
+rox-browser@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/rox-browser/-/rox-browser-5.0.0.tgz#f9f9d1d54ad8958c19ef0fb3f9c270cb0335d4e0"
+  integrity sha512-l9DsmoxVffRxVldBAifLwFhEGEa7nreAkIy/cr2LO47IX1ilK4XaFa4i0wKzK8oyhv/HNU97Ptfr/0oYdtm37g==
+  dependencies:
+    axios "^0.19.2"
 
 rsvp@^3.3.3:
   version "3.6.2"
