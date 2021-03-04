@@ -1,5 +1,5 @@
 import Rox from 'rox-browser'
-import { betaAccess, isLoggedIn, getCompany, userList } from './users'
+import { betaAccess, isLoggedIn, getCompany } from './users'
 
 export const Flags = {
   score: new Rox.Flag(false),
@@ -31,7 +31,6 @@ const options = {
 Rox.setCustomBooleanProperty('isBetaUser', betaAccess())
 Rox.setCustomBooleanProperty('isLoggedIn', isLoggedIn())
 Rox.setCustomStringProperty('company', getCompany())
-Rox.setCustomStringProperty('users', userList())
 
 Rox.register('default', Flags)
 Rox.setup(process.env.VUE_APP_ROLLOUT_KEY, options)
