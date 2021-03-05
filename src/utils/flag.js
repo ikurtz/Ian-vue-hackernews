@@ -32,5 +32,6 @@ Rox.setCustomBooleanProperty('isBetaUser', betaAccess())
 Rox.setCustomBooleanProperty('isLoggedIn', isLoggedIn())
 Rox.setCustomStringProperty('company', getCompany())
 
+
 Rox.register('default', Flags)
 Rox.setup(process.env.VUE_APP_ROLLOUT_KEY, options)
