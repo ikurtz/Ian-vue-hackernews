@@ -1,12 +1,12 @@
 export const userList = [
   {
-    username: 'white-rose',
+    username: 'whiterose',
     password: 'ihack2',
     company: 'darkarmy',
     beta_access: true
   },
   {
-    username: 'mr-robot',
+    username: 'mrrobot',
     password: 'ihack',
     company: 'fsociety',
     beta_access: false
