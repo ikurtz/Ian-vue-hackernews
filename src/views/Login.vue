@@ -22,8 +22,8 @@
               <div class="field">
                 <button class="button is-dark">Login</button>
               </div>
-              <p><a><small @click="mr-robot">Normal user: normaluser/normaluser</small></a></p>
-              <p><a><small @click="white-rose">Beta user: betauser/betauser</small></a></p>
+              <p><a><small @click="normalUser">Normal user: normaluser/normaluser</small></a></p>
+              <p><a><small @click="betaUser">Beta user: betauser/betauser</small></a></p>
             </form>
           </div>
         </div>
@@ -43,12 +43,12 @@ export default {
   },
   methods: {
     normalUser: function () {
-      this.username = 'normaluser'
-      this.password = 'normaluser'
+      this.username = 'mr-robot'
+      this.password = 'ihack'
     },
     betaUser: function () {
-      this.username = 'betauser'
-      this.password = 'betauser'
+      this.username = 'white-rose'
+      this.password = 'ihack2'
     },
     ...mapActions([
       'login'
