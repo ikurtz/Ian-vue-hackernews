@@ -1,14 +1,14 @@
 export const userList = [
   {
-    username: 'thatbetauser',
-    password: 'inconstantbeta',
-    company: 'beta global',
+    username: 'white-rose',
+    password: 'ihack2',
+    company: 'darkarmy',
     beta_access: true
   },
   {
-    username: 'Bobby Axelrod',
-    password: 'notmypassword',
-    company: 'Axe Capital',
+    username: 'mr-robot',
+    password: 'ihack',
+    company: 'fsociety',
     beta_access: false
   }
 ]
