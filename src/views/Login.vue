@@ -22,8 +22,8 @@
               <div class="field">
                 <button class="button is-dark">Login</button>
               </div>
-              <p><a><small @click="normalUser">Normal user: normaluser/normaluser</small></a></p>
-              <p><a><small @click="betaUser">Beta user: betauser/betauser</small></a></p>
+              <p><a><small @click="Bobby Axelrod">Normal user: normaluser/normaluser</small></a></p>
+              <p><a><small @click="thatbetauser">Beta user: betauser/betauser</small></a></p>
             </form>
           </div>
         </div>
