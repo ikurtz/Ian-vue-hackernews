@@ -43,11 +43,11 @@ export default {
   },
   methods: {
     normalUser: function () {
-      this.username = 'mr-robot'
+      this.username = 'mrrobot'
       this.password = 'ihack'
     },
     betaUser: function () {
-      this.username = 'white-rose'
+      this.username = 'whiterose'
       this.password = 'ihack2'
     },
     ...mapActions([
