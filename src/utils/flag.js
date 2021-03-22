@@ -19,8 +19,8 @@ export const configurationFetchedHandler = fetcherResults => {
 export const impressionHandler = (reporting, experiment) => {
   if (experiment) {
     console.log('flag ' + reporting.name + ' value is ' + reporting.value + ', it is part of ' + experiment.name + ' experiment')
-    
-  } else {
+
+} else {
     console.log('No experiment configured for flag ' + reporting.name + '. default value ' + reporting.value + ' was used')
   }
 }
