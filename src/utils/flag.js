@@ -8,7 +8,7 @@ export const Flags = {
   show: new Rox.Flag(false),
   headerColor: new Rox.RoxString('is-dark', ['is-dark', 'is-primary', 'is-white'])
 }
-// Defining the configurationFetchedHandler for analytics
+// Defining the configurationFetchedHandler for pulling new flag configuration changes
 export const configurationFetchedHandler = fetcherResults => {
   if (fetcherResults.hasChanges && fetcherResults.fetcherStatus === 'APPLIED_FROM_NETWORK') {
     window.location.reload(false)
